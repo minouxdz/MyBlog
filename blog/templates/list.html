@@ -1,0 +1,6 @@
+<h1>List of Posts</h1>
+<ul>
+{% for post in posts %}
+<a href="{{post.id}}"><li>{{post.title}}</li></a>
+{% endfor %}
+</ul>
